@@ -1,0 +1,40 @@
+body {
+	width: 90%;
+	margin: 0 auto; }
+#content {overflow: auto;}
+#nav, #feature, #footer {
+	margin: 1%;}
+.column1 {
+	background-color:#efefef;
+	width: 31%;
+	float: left;
+	margin: 10px;
+}
+.column2 {
+	background-color:#ffffef;
+	width: 31%;
+	float: left;
+	margin: 10px;
+}
+.column3 {
+	background-color:#efeeef;
+	width: 31%;
+	float: left;
+	margin: 10px;
+	margin-right: 0%;
+}
+li{
+	display:inline;
+	padding: 0.5em 0;}
+#nav. #footer {
+	background-color: #efefef;
+	padding: 0.5em 0;}
+#feature, .article {
+	height: 10em;
+	margin-bottom:1em;
+	background-color: #efefef;}	
+#my-thumbs-list{
+  overflow: auto;
+  width: 800px;
+  height: 300px;
+}

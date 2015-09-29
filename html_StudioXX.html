@@ -1,0 +1,59 @@
+<head>
+	<link href="css_StudioXX.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="thumbnail-scroller-master/thumbnail-scroller-master/jquery.mThumbnailScroller.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="thumbnail-scroller-master/thumbnail-scroller-master/js/minified/jquery.mThumbnailScroller.min.js"></script>
+	<script>
+				(function($){
+				$(window).load(function(){
+				$("#my-thumbs-list").mThumbnailScroller({
+				axis:"x", //change to "y" for vertical scroller
+				});
+			});
+		})(jQuery);
+	</script>
+</head>
+
+<body>
+	<div id="header">
+		<h1>Logo</h1>
+		<div id="nav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">letter+CV</a></li>
+				<li><a href="">Links</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="feature">
+		<p>Feature</p>
+			<div id="my-thumbs-list">
+				<ul>
+					<li><img src="images/test1.jpg" /></li>
+					<li><img src="images/test2.jpg" /></li>
+					<li><img src="images/test3.jpg" /></li>
+					<li><img src="images/test4.jpg" /></li>
+					<!-- and so on... -->
+				</ul>
+			</div>
+		</div>
+		<div class="article column1">
+		<p>Column One</p>
+		</div>
+		<div class="article column2">
+		<p>Column Two</p>
+		</div>
+		<div class="article column3">
+		<p>Column Three</p>
+		</div>
+	</div>
+		
+	<div id="footer">
+		<p>&copy; Copyright 2011</p>
+	</div>
+	
+</body>
